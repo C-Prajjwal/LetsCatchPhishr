@@ -6,8 +6,8 @@ def streamlit_menu():
     with st.sidebar:
         selected = option_menu(
             menu_title=None,  # required
-            options=["Home", "Project_Description", "Contact_Us", "Blog", "FAQ"],  # required
-            icons=["house", "book", "envelope", "bootstrap", "question-circle"],  # optional
+            options=["Home", "Project_Description", "Contact_Us", "FAQ"],  # required
+            icons=["house", "book", "envelope", "question-circle"],  # optional
             menu_icon="cast",  # optional
             default_index=0,  # optional
         )

@@ -227,7 +227,7 @@ from bs4 import BeautifulSoup
 # Import the FeatureExtraction class from feature.py
 from feature import FeatureExtraction
 from menu import streamlit_menu
-from pages import FAQ, Blog, Contact_Us, Project_Description
+from pages import FAQ, Contact_Us, Project_Description
 from utils import footer
 
 # Set page config
@@ -604,11 +604,11 @@ elif selected == "Contact_Us":
 elif selected == "FAQ":
     FAQ.show()
     footer()
-elif selected == "News":
-    Blog.show()
-    footer()
-elif selected == "Blog":
-    Blog.show()
-    footer()
+# elif selected == "News":
+#     Blog.show()
+#     footer()
+# elif selected == "Blog":
+#     Blog.show()
+#     footer()
 
 
